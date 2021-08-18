@@ -1,0 +1,99 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet & Mobile  */
+@media (max-width: 1023px) {
+    .contact-submit {
+        padding: 16px 32px;
+    }
+
+    .btn-buy-ticket {
+        padding: 16px 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 723px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    
+    #header .menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:nth-child(1) {
+        display: inline-block;
+    }
+
+    #nav .sub-nav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .sub-nav a {
+        padding: 5px 41px;
+        color: #fff;
+    }
+
+    #nav .sub-nav li:hover a {
+        background-color: #fff;
+        color: #000;
+    }
+
+    #content .content-section .about-team {
+        display: block;
+    }
+
+    .ticket-places {
+        display: block;
+    }
+
+    .place-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .btn-buy-ticket {
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-bottom: 16px;
+    }
+
+    .contact-form > form > div.row.col > input:nth-child(2) {
+        margin-top: 8px;
+    }
+
+    .contact-submit {
+        width: 100%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+}
